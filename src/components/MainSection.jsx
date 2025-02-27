@@ -30,7 +30,7 @@ function MainSection() {
                     isScrolled ? "top-0" : "top-25"
                 }`}
             >
-                <div className="flex items-center justify-between p-4 sm:hidden">
+                <div className="flex justify-end p-4 sm:hidden">
                     <button onClick={toggleMenu} aria-label="Toggle Menu">
                         {isMenuOpen ? (
                             <FaTimes size={28} />
