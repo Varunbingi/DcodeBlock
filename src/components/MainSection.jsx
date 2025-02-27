@@ -31,7 +31,6 @@ function MainSection() {
                 }`}
             >
                 <div className="flex items-center justify-between p-4 sm:hidden">
-                    <h1 className="text-lg font-bold">HACKINDIA</h1>
                     <button onClick={toggleMenu} aria-label="Toggle Menu">
                         {isMenuOpen ? (
                             <FaTimes size={28} />
